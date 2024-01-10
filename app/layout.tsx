@@ -8,7 +8,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${lusitana.className} antialiased`}>{children}</body>
+      <body className={`${lusitana.className} antialiased`}>
+        <nav>
+          <p>peter</p>
+        </nav>
+        {children}</body>
     </html>
   );
 }
